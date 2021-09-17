@@ -1,5 +1,5 @@
 
-# Imports
+"""# Imports"""
 
 import pandas as pd
 import numpy as np
@@ -21,9 +21,7 @@ df = pd.DataFrame(prefList, columns=colNames)
 
 df.head()
 
-"""# Drop items
-
-"""
+"""# Drop items"""
 
 # Plan is to drop some of these options randomly. 
 # The dataframe should adjust the preferences accordingly.
